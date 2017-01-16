@@ -1,0 +1,29 @@
+k 1 - __attribute((packed))
+ok 2 - __attribute((packed))
+ok 3 - __attribute((packed))
+ok 4 - __attribute((packed))
+ok 5 - __attribute((packed))
+ok 6 - __attribute((packed))
+ok 7 - __attribute((packed))
+ok 8 - __attribute((packed))
+ok 9 - 0 == &(struct{union{a,b}})->a
+ok 10 - 0 == &(struct{union{a,b}})->b
+ok 11 - unsigned underflow - 64 bits
+ok 12 - unsigned underflow - 32 bits
+ok 13 - unsigned underflow - 16 bits
+ok 14 - unsigned underflow - 8 bits
+ok 15 - unsigned overflow - 64 bits
+ok 16 - unsigned overflow - 32 bits
+ok 17 - unsigned overflow - 16 bits
+ok 18 - unsigned overflow - 8 bits
+ok 19 - signed underflow - 64 bits
+ok 20 - signed underflow - 32 bits
+ok 21 - signed underflow - 16 bits
+ok 22 - signed underflow - 8 bits
+ok 23 - signed overflow - 64 bits
+ok 24 - signed overflow - 32 bits
+ok 25 - signed overflow - 16 bits
+ok 26 - signed overflow - 8 bits
+ok 27 - 0xfedcba0123456789 == 0xfedcba0123456789
+ok 28 - 0x8967452301badcfe == 0x8967452301badcfe
+1..28
